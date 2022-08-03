@@ -31,8 +31,10 @@ class wpb_widget extends WP_Widget {
 		echo $args['before_widget'];
 		echo $args['before_title'] . $title . $args['after_title'];
 
+		//Doviz ve altın veris seti API
 		$veriseti = json_decode(file_get_contents('https://finans.truncgil.com/today.json'), true);
 
+		//Gelen API dan gerekli olan verileri alıp array yapıyoruz
 		$veriler = array(	
 			'Kurlar' => array(
 				'USD' => array(
@@ -88,7 +90,8 @@ class wpb_widget extends WP_Widget {
 			)
 		);
 
-		$bg_color = "#1151d3"; //#d10014
+		//Wordpress de ki görünümünü araylıyoruz
+		$bg_color = "#1151d3";
 		$text_color = "#fff";
 		
 		echo __( '
