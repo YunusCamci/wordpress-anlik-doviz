@@ -12,4 +12,4 @@ Bilgim dahilinde yapmış oldugum eklentiyi paylaştım yanlışlarım veya hata
 5) Yükleme sonrasında eklentiyi etkinleştirin.
 6) Görünüm sayfasından + simgesine tıklayın.
 7) Arama bölümüne Anlık Döviz yazarak çıkmış olan widgeti ekleyin.
-8) Kayıt edin tuşununa basın.
+8) Kaydet tuşununa basın.
