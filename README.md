@@ -4,7 +4,7 @@ Eklenti güncel döviz verilerini API dan alıp Wordpress de widget olarak kulla
 
 Bilgim dahilinde yapmış oldugum eklentiyi paylaştım yanlışlarım veya hatalar olabilir, bilgisi olan arkadaşlar yardımcı olabilir.
 
-###### Kurulumu
+#### Kurulumu
 1) Zip dosyasını bilgisayarınıza indirin.
 2) Zip dosyasında bulununan kurlar adlı klasörü çıkartın.
 3) Wordpress admin panelinden eklentiler sekmesini açın.
